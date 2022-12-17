@@ -11,6 +11,13 @@
 		8E349BCC294E0AA400BB71DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E349BCB294E0AA400BB71DC /* ContentView.swift */; };
 		8E349BCE294E0AA900BB71DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E349BCD294E0AA900BB71DC /* Assets.xcassets */; };
 		8E349BD1294E0AA900BB71DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E349BD0294E0AA900BB71DC /* Preview Assets.xcassets */; };
+		8E349BD8294E0F6F00BB71DC /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E349BD7294E0F6F00BB71DC /* TimeCounter.swift */; };
+		8E349BDA294E155D00BB71DC /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E349BD9294E155D00BB71DC /* RegisterView.swift */; };
+		8E349BDC294E165000BB71DC /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E349BDB294E165000BB71DC /* UserManager.swift */; };
+		8E349BDE294E187600BB71DC /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E349BDD294E187600BB71DC /* StarterView.swift */; };
+		8E349BE0294E4FE000BB71DC /* LogOutButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E349BDF294E4FE000BB71DC /* LogOutButtonView.swift */; };
+		8E349BE2294E510400BB71DC /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E349BE1294E510400BB71DC /* StorageManager.swift */; };
+		8E349BE4294E56E100BB71DC /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E349BE3294E56E100BB71DC /* StartButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		8E349BCB294E0AA400BB71DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E349BCD294E0AA900BB71DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E349BD0294E0AA900BB71DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E349BD7294E0F6F00BB71DC /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		8E349BD9294E155D00BB71DC /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		8E349BDB294E165000BB71DC /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		8E349BDD294E187600BB71DC /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		8E349BDF294E4FE000BB71DC /* LogOutButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutButtonView.swift; sourceTree = "<group>"; };
+		8E349BE1294E510400BB71DC /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		8E349BE3294E56E100BB71DC /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,14 @@
 			isa = PBXGroup;
 			children = (
 				8E349BC9294E0AA400BB71DC /* StateAndDataFlow_ABApp.swift */,
+				8E349BDD294E187600BB71DC /* StarterView.swift */,
+				8E349BD9294E155D00BB71DC /* RegisterView.swift */,
 				8E349BCB294E0AA400BB71DC /* ContentView.swift */,
+				8E349BE3294E56E100BB71DC /* StartButtonView.swift */,
+				8E349BDF294E4FE000BB71DC /* LogOutButtonView.swift */,
+				8E349BD7294E0F6F00BB71DC /* TimeCounter.swift */,
+				8E349BDB294E165000BB71DC /* UserManager.swift */,
+				8E349BE1294E510400BB71DC /* StorageManager.swift */,
 				8E349BCD294E0AA900BB71DC /* Assets.xcassets */,
 				8E349BCF294E0AA900BB71DC /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E349BE4294E56E100BB71DC /* StartButtonView.swift in Sources */,
+				8E349BD8294E0F6F00BB71DC /* TimeCounter.swift in Sources */,
+				8E349BDA294E155D00BB71DC /* RegisterView.swift in Sources */,
+				8E349BDE294E187600BB71DC /* StarterView.swift in Sources */,
 				8E349BCC294E0AA400BB71DC /* ContentView.swift in Sources */,
+				8E349BDC294E165000BB71DC /* UserManager.swift in Sources */,
 				8E349BCA294E0AA400BB71DC /* StateAndDataFlow_ABApp.swift in Sources */,
+				8E349BE0294E4FE000BB71DC /* LogOutButtonView.swift in Sources */,
+				8E349BE2294E510400BB71DC /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
